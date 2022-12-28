@@ -9,9 +9,12 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-
+	<div class="container">
+	<caption>List of all transactions</caption>
 	<table class="table">
+		
 		<thead class="table-dark">
+			
 			<tr>
 				<th scope="col">#</th>
 				<th scope="col">From</th>
@@ -39,14 +42,12 @@
 				  <td>John</td>
 				  <td>2000</td>
 				</tr>
-				<tr>
-					<th scope="row"></th>
-					<td></td>
-					<td></td>
-					<td> Total 4000</td>
+				<tr aria-rowspan="4">
+					  <td class="font-monospace  text-end fw-bold"id = "total">Total 4000</td>
 				  </tr>
 			  </tbody>
 			 </table>
+			</div>
 	  
 	<script type="text/javascript" src="./script.js">
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
